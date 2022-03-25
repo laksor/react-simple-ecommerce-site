@@ -3,13 +3,15 @@ import './Product.css';
 const Product = (props) => {
     const {name, price, seller, ratings, img} = props.product;
     return (
-        <div className='products'>
-            <img src={img}></img>
-            <h1>{name}</h1>
-            <h3>Price: ${price}</h3>
-            <p>Manufacturer: {seller}</p>
-            <p>Rating: {ratings}</p>
-            <button>Add to cart</button>
+        <div className='big-div'>
+            <div className='products-info'>
+                <img src={img}></img>
+                <h3>{name}</h3>
+                <h4>Price: ${price}</h4>
+                <h6>Manufacturer: {seller}</h6>
+                <p>Rating: {ratings}</p>
+            </div>
+            <button className='btn-cart'>Add to cart</button>
         </div>
     );
 };
