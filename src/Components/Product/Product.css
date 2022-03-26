@@ -18,6 +18,7 @@
 .big-div{
     position: relative;
     border: 1px solid #0E161A;
+    border-radius: 10px;
 }
 .btn-cart{
     width: 100%;
@@ -28,6 +29,7 @@
     bottom: 0;
     position: absolute;
     font-size: 14px;
+    border-radius: 0px 0px 10px 10px;
     font-weight: 700;
    
 }
