@@ -3,6 +3,8 @@
     grid-template-columns: 4fr 1fr;
 }
 .cart-container{
+    position: sticky;
+    top:0;
     background-color: #FF99004D;
     height: 944px;
     width: 264px;
